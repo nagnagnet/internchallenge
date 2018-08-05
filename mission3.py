@@ -10,7 +10,6 @@ sys.stderr.write(datafile)
 sys.stderr.write("\n")
 data = open(datafile, "r")
 stock = [[] for i in range(3)]
-
 route = []
 distance = [INF for i in range(T)]
 prev = [-1 for i in range(T)]
